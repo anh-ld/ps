@@ -1,0 +1,2 @@
+- This project is meant to practice writing a pub-sub library from scratch without looking at the existing source code.
+- API is brought from [mitt](https://github.com/developit/mitt).
