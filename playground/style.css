@@ -98,6 +98,6 @@ button:focus-visible {
 
 .custom-toast .swal2-title {
   font-weight: 500;
-  padding: 12px;
+  padding: 0px;
   font-size: 24px;
 }
