@@ -1,10 +1,22 @@
-This project is meant to practice writing a pub-sub [mitt](https://github.com/developit/mitt) library from scratch
-without looking at the existing source code.
+### PS
+- Pub/Sub JS library that's inspirated from [mitt](https://github.com/developit/mitt).
+- The project's goal is to practice building the pub/sub library from scratch.
 
-### Usage
+#### Installation
+
+Add `.npmrc` into project
+```bash
+@culee:registry=https://npm.pkg.github.com
+```
+
+```bash
+npm install @culee/ps
+```
+
+#### Usage
 
 ```js
-import pubsub from './src'
+import pubsub from '@culee/ps'
 
 const ps = pubsub()
 
